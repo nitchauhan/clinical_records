@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.example.clinicalrecord.Patient_Master"/>
+<fullyQualifiedTypeName name="com.example.clinicalrecord.ViewPatientDtl"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="com.example.clinicalrecord.PatientDetails"/>
+<fullyQualifiedTypeName name="com.example.clinicalrecord.R.id"/>
+</qualifiedTypeNameHistroy>

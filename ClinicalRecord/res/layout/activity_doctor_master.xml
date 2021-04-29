@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68a0b0"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.clinicalrecord.Doctor_Master" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Doctor_Master"
+        android:textSize="25sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linerLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounded_edge"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/dr_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linerLayout1"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:ems="12"
+            android:hint="Doctor_Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/dr_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linerLayout1"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:ems="12"
+            android:hint="Doctor_Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/dr_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:ems="12"
+            android:hint="Doctor_MobileNo"
+            android:inputType="text" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="510dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.26"
+            android:src="@drawable/dr" />
+
+        <EditText
+            android:id="@+id/dr_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linerLayout1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.45"
+            android:ems="12"
+            android:hint="Doctor_images" />
+
+        <EditText
+            android:id="@+id/dr_Specilizations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/linerLayout1"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:ems="12"
+            android:hint="Specilizations"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edge_btn"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
